@@ -41,6 +41,17 @@ The dataset includes missing values, categorical variables, and features on diff
 Exploratory data analysis was performed to understand data distributions, identify missing values, and analyze relationships between features. Correlation analysis and visualizations were used to extract meaningful insights from the data.
 
 ---
+### Correlation Heatmap
+
+The correlation heatmap below visualizes the linear relationships between numerical features and encoded categorical variables.
+
+- Most features show low to moderate correlation, indicating minimal multicollinearity.
+- Credit score and loan approval status exhibit a positive correlation, highlighting credit history as an important factor.
+- Engineered and encoded categorical variables do not introduce strong unintended correlations.
+
+This analysis helped validate feature independence assumptions and informed model selection decisions.
+
+![Correlation Heatmap](assets/correlation_heatmap.png)
 
 ## Data Preprocessing and Feature Engineering
 The following steps were applied:
