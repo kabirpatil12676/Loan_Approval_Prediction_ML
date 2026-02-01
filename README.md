@@ -1,3 +1,5 @@
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
 # Loan Approval Prediction using Machine Learning
 
 ## Overview
